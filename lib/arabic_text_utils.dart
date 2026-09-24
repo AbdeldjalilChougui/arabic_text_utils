@@ -8,3 +8,4 @@ export 'src/tafqit/tafqit.dart';
 export 'src/diacritics.dart';
 export 'src/digits.dart';
 export 'src/direction.dart';
+export 'src/transliteration.dart';

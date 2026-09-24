@@ -56,7 +56,8 @@ final RegExp _rtlLetter = RegExp(
   r'\p{Script=Yezidi}])\p{L}',
   unicode: true,
 );
-final RegExp _bidiControls = RegExp('[\u200E\u200F\u061C\u202A-\u202E\u2066-\u2069]');
+final RegExp _bidiControls =
+    RegExp('[\u200E\u200F\u061C\u202A-\u202E\u2066-\u2069]');
 
 /// Whether [text] contains at least one Arabic-script letter (including
 /// Persian/Urdu letters and presentation forms). Digits do not count.

@@ -25,7 +25,8 @@ void main() {
       expect(removeDiacritics('مُحَمَّد', keepShadda: true), 'محمّد');
     });
     test('keepQuranicMarks', () {
-      expect(removeDiacritics('قَالَ\u06D6', keepQuranicMarks: true), 'قال\u06D6');
+      expect(
+          removeDiacritics('قَالَ\u06D6', keepQuranicMarks: true), 'قال\u06D6');
     });
     test('tatweel is kept by default', () {
       expect(removeDiacritics('مـــحَمد'), 'مـــحمد');

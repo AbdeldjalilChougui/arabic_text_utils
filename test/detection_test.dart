@@ -82,7 +82,8 @@ void main() {
       expect(embedWithMarks('abc', BidiDirection.ltr), '\u200Eabc\u200E');
     });
     test('stripBidiControls removes marks and isolates', () {
-      expect(stripBidiControls('\u200F\u2068abc\u2069\u200E\u202B\u202C'), 'abc');
+      expect(
+          stripBidiControls('\u200F\u2068abc\u2069\u200E\u202B\u202C'), 'abc');
     });
     test('constants', () {
       expect(BidiChars.rlm, '\u200F');
