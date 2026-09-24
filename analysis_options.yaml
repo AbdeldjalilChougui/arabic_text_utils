@@ -1,0 +1,13 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-raw-types: true
+    strict-inference: true
+
+linter:
+  rules:
+    - public_member_api_docs
+    - prefer_single_quotes
+    - always_declare_return_types

@@ -1,0 +1,21 @@
+name: arabic_text_utils
+description: >-
+  Everyday Arabic text utilities in pure Dart: grammatical number-to-words
+  (tafqit) with currencies, digit conversion, diacritics, direction and slugs.
+version: 0.1.0
+homepage: https://abdeldjalilchougui.biz/
+repository: https://github.com/AbeldjalilChougui/arabic_text_utils
+issue_tracker: https://github.com/AbeldjalilChougui/arabic_text_utils/issues
+topics:
+  - arabic
+  - i18n
+  - text
+  - rtl
+  - numbers
+
+environment:
+  sdk: ^3.5.0
+
+dev_dependencies:
+  lints: ^5.1.1
+  test: ^1.25.0
