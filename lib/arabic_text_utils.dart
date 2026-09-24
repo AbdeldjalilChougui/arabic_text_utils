@@ -5,3 +5,6 @@ library;
 export 'src/tafqit/currency.dart';
 export 'src/tafqit/grammar.dart' hide NounForm, nounPhrase;
 export 'src/tafqit/tafqit.dart';
+export 'src/diacritics.dart';
+export 'src/digits.dart';
+export 'src/direction.dart';
